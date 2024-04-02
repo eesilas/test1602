@@ -1,0 +1,11 @@
+makerbit.connectLcd(39)
+makerbit.clearLcd1602()
+makerbit.setLcdBacklight(LcdBacklight.Off)
+basic.pause(500)
+makerbit.setLcdBacklight(LcdBacklight.On)
+basic.pause(500)
+makerbit.setLcdBacklight(LcdBacklight.Off)
+basic.forever(function () {
+    makerbit.showStringOnLcd1602("Temperature:", makerbit.position1602(LcdPosition1602.Pos1), 16)
+    makerbit.showStringOnLcd1602("" + (input.temperature()), makerbit.position1602(LcdPosition1602.Pos12), 16)
+})

@@ -1,0 +1,28 @@
+{
+    "name": "test1602",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*",
+        "MakerBit-LCD1602": "github:1010technologies/pxt-makerbit-lcd1602#v1.8.10",
+        "pxt-sonar": "github:microsoft/pxt-sonar#v0.0.5",
+        "Joy-Car": "github:joy-it/joy-car#1.1.2"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "6.0.25",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
